@@ -28,6 +28,7 @@ public class Checked_Unckecked {
 		
 		try {
 			res=add(n1,n2);
+			System.out.println("change");
 		}
 		catch(ArithmeticException ae) {
 			System.out.println(ae.getMessage());
